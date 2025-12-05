@@ -44,6 +44,8 @@ export default function LoginDialog() {
         toast.success(`Olá ${response.pro_nome}`);
         insertUserId(response.pro_id);
         setAuth(true);
+        localStorage.setItem("userId", String(response.pro_id));
+        localStorage.setItem("isAuthenticated", "true");
         navigate("/HomeTeacher");
       }
 

@@ -21,7 +21,7 @@ export default function ClassList() {
   const [classes, setClasses] = useState<ClassResponse[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const userId = userStore((s) => s.userId);
+  const userId = localStorage.getItem("userId");
 
   useEffect(() => {
     if (!userId) return;
