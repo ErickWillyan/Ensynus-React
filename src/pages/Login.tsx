@@ -17,21 +17,6 @@ export default function Login() {
             Venha para Ensynus. A plataforma ideal para aprender e ensinar com
             flexibilidade e qualidade.
           </p>
-          {/* <div className="flex items-center justify-center gap-4">
-            <Button
-              onClick={() => navigate("/homeTeacher")}
-              className="bg-amber-300 text-white hover:bg-amber-400"
-            >
-              Entrar
-            </Button>
-            <Button
-              onClick={() => navigate("/RegisterUser")}
-              variant="outline"
-              className="border-amber-300 text-amber-300"
-            >
-              Cadastre-se
-            </Button>
-          </div> */}
         </section>
       </main>
     </>
